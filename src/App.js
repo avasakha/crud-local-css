@@ -52,7 +52,7 @@ export default class App extends Component {
   render() {
     const { firstName, lastName, email, users } = this.state
     return <>
-      <div className='paint' key={firstName} >
+      <div className='paint' >
         <div className="view"  >
           <Paint changeHandler={this.changeHandler} submitHandler={this.submitHandler} submitHandler={this.submitHandler} cancleRow={this.cancleRow} firstName={firstName} lastName={lastName} email={email} />
     
